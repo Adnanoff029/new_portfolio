@@ -12,7 +12,6 @@ function App() {
       transition={{ duration: 1, delay: 0.3, ease: "easeInOut" }}
       className="bg-black text-white"
     >
-      <Navbar />
       {/* 
         Navbar -> Education, Tech Stack, Projects, Experience, Contact (It should be sticky)
         Header -> Name, Summary
@@ -24,7 +23,8 @@ function App() {
         Footer -> Just a made with love by me
         
         */}
-      <h1 className="text-3xl">Portfolio</h1>
+      <Navbar />
+      
     </motion.div>
   );
 }
