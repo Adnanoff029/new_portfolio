@@ -6,7 +6,7 @@ const Navbar = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.7, delay: 1.3, ease: "easeInOut" }}
-      className="p-5 text-white sticky top-0 z-50 flex justify-between items-center bg-black shadow-xl shadow-amber-50/8 shadow-amber-50"
+      className="py-5 text-white z-50 flex flex-col items-center bg-black sticky top-0 h-screen border-r-amber-100 border-r-2"
     >
       <div>
         <motion.div
@@ -23,7 +23,7 @@ const Navbar = () => {
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
           transition={{ duration: 1, delay: 2.4, ease: "easeInOut" }}
-          className="text-xl overflow-hidden whitespace-nowrap flex gap-5 items-center justify-between"
+          className="text-xl overflow-hidden whitespace-nowrap flex flex-col gap-5 justify-between my-10"
         >
           {navOptions.map((option, idx) => (
             <motion.div
@@ -40,7 +40,6 @@ const Navbar = () => {
           ))}
         </motion.div>
       </div>
-      <div></div>
     </motion.div>
   );
 };
