@@ -33,7 +33,7 @@ function App() {
       <div className="min-h-[100vh] col-span-1">
         <Navbar />
       </div>
-      <div className="overflow-y-scroll overflow-x-hidden col-span-6 flex flex-col justify-between m-5 ">
+      <div className="overflow-y-scroll col-span-6 m-5 ">
         <Header />
         <Education />
         <TechStack />

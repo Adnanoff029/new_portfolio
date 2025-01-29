@@ -1,8 +1,17 @@
 @import "tailwindcss";
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #909fb4;
+  border-radius: 5px;
+}
+
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: rgb(187, 187, 187);
   color: white;

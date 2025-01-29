@@ -7,7 +7,7 @@ const Header = () => {
       transition={{ duration: 1, delay: 3.4, ease: "easeInOut" }}
       className="grid grid-cols-3 items-center gap-5"
     >
-      <div className="flex flex-col col-span-2">
+      <div className="flex flex-col col-span-2 min-h[100vh]">
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: "100%" }}
