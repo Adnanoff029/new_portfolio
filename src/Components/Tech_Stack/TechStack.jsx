@@ -18,6 +18,8 @@ const TechStack = () => {
       Databases: MongoDB, PostgreSQL, Firebase
       Languages: Hindi, English
       */}
+      {/* Wrong ones - Nest,  express, mongoose, next, react, css, html, sql, ts, cpp, */}
+      <img src="../../../public/cpp.svg"/>
     </motion.div>
   );
 };

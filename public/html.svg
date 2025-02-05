@@ -1,0 +1,7 @@
+<!-- filepath: /d:/Portfolio/portfolio/public/html.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+	<path fill="#E44D26" d="M19 0h90l-8.1 92.2L64 128 27.1 92.2 19 0z" />
+	<path fill="#F16529" d="M64 117.5l34.2-10.1 6.9-77.3H64v87.4z" />
+	<path fill="#EBEBEB" d="M64 54.2h-22l1.1 12.4H64v-12.4zm0-24.8H41.7l1.1 12.4H64V29.4zm0 49.6H50.4l1.1 12.4H64v-12.4zm0 24.8H41.7l1.1 12.4H64v-12.4z" />
+	<path fill="#FFF" d="M64 54.2v12.4h22l-1.1-12.4H64zm0-24.8v12.4h22l-1.1-12.4H64zm0 49.6v12.4h13.6l-1.1-12.4H64zm0 24.8v12.4h22l-1.1-12.4H64z" />
+</svg>
