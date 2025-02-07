@@ -50,3 +50,43 @@ export const educationData = [
     image: "../../../public/aloysius.png",
   },
 ];
+
+
+export const techStackData = [{
+  source: '../../../public/cpp.svg',
+},{
+  source: '../../../public/js.svg',
+},{
+  source: '../../../public/html.svg',
+},{
+  source: '../../../public/css.svg',
+},{
+  source: '../../../public/node.svg',
+},{
+  source: '../../../public/ts.svg',
+},{
+  source: '../../../public/react.svg',
+},{
+  source: '../../../public/next.svg', // Not getting this
+},{
+  source: '../../../public/mongo.svg',
+},{
+  source: '../../../public/firebase.svg',
+},{
+  source: '../../../public/git.svg',
+},{
+  source: '../../../public/vscode.svg',
+},{
+  source: '../../../public/postman.svg',
+},{
+  source: '../../../public/tailwind.svg',
+},{
+  source: '../../../public/vue.svg',
+},{
+  source: '../../../public/mongoose.svg',
+},{
+  source: '../../../public/nest.svg',
+},{
+  source: '../../../public/postgresql.svg',
+}
+]

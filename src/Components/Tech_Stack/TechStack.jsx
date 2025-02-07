@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import SectionHeading from "../utils/SectionHeading";
+import { techStackData } from "../../data/data";
 const TechStack = () => {
   return (
     <motion.div
@@ -19,7 +20,26 @@ const TechStack = () => {
       Languages: Hindi, English
       */}
       {/* Wrong ones - Nest,  express, mongoose, next, react, css, html, sql, ts, cpp, */}
-      <img src="../../../public/cpp.svg"/>
+      <div className="mt-5 min-w-[100%] mx-10">
+        <div className="inline-grid grid-cols-1 sm:grid-cols-4 md:grid-cols-6 gap-5 min-w-[100%] items-center justify-center">
+          {techStackData.map((tech, index) => (
+            <div className="flex items-center justify-center" key={index}>
+              <motion.img
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  delay: index * 0.1,
+                  ease: "easeInOut",
+                }}
+                src={tech.source}
+                alt="tech"
+                className="h-20 w-20"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
     </motion.div>
   );
 };
