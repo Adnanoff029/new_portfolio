@@ -53,40 +53,40 @@ export const educationData = [
 
 
 export const techStackData = [{
-  source: '../../../public/cpp.svg',
+  source: '/cpp.svg',
 },{
-  source: '../../../public/js.svg',
+  source: '/js.svg',
 },{
-  source: '../../../public/html.svg',
+  source: '/html.svg',
 },{
-  source: '../../../public/css.svg',
+  source: '/css.svg',
 },{
-  source: '../../../public/node.svg',
+  source: '/node.svg',
 },{
-  source: '../../../public/ts.svg',
+  source: '/ts.svg',
 },{
-  source: '../../../public/react.svg',
+  source: '/react.svg',
 },{
-  source: '../../../public/next.svg', // Not getting this
+  source: '/next.svg', // Not getting this
 },{
-  source: '../../../public/mongo.svg',
+  source: '/mongo.svg',
 },{
-  source: '../../../public/firebase.svg',
+  source: '/firebase.svg',
 },{
-  source: '../../../public/git.svg',
+  source: '/git.svg',
 },{
-  source: '../../../public/vscode.svg',
+  source: '/vscode.svg',
 },{
-  source: '../../../public/postman.svg',
+  source: '/postman.svg',
 },{
-  source: '../../../public/tailwind.svg',
+  source: '/tailwind.svg',
 },{
-  source: '../../../public/vue.svg',
+  source: '/vue.svg',
 },{
-  source: '../../../public/mongoose.svg',
+  source: '/mongoose.svg',
 },{
-  source: '../../../public/nest.svg',
+  source: '/nest.svg',
 },{
-  source: '../../../public/postgresql.svg',
+  source: '/postgresql.svg',
 }
 ]
